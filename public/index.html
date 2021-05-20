@@ -20,10 +20,12 @@
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      Unlike "https://ambassador.bagcampus.in/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +41,360 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <script>
+    
+    $(document).ready(function () {
+            $("#certificatesubmit").click(function (event) {
+                event.preventDefault()
+                var getcertified = false;
+                var bla = $('#uid').val();
+                var domain = $('#domain').val();
+                console.log("clicked")
+                if (bla == 'WEBAND') {
+                    alert("Thank You, Krushabh For Your Work, Collect Certificate From Here. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Geetanjali Sultane.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Geetanjali') {
+                    alert("Geetanjali, Collect Certificate From Here. Click Ok To Continue. And Click On Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Geetanjali Sultane.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Alima') {
+                    alert("Alima, Collect Certificate From Here. Click Ok To Continue. And Click On Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Alima Rais.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Yash') {
+                    alert("Yash, Collect Certificate From Here. Click Ok To Continue. And Click On Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Yash Bansal.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Radhika') {
+                    alert("Radhika, Collect Certificate From Here. Click Ok To Continue. And Click On Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Radhika Jaju.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Devanshi') {
+                    alert("Name: Devanshi Role: Graphic Intern Status:Not Elegible For Certificate");
+                    var getcertified = true;
+                }
+                if (bla == 'ANDRINS') {
+                    alert("Thank You, Mayur For Your Work, Collect Certificate From Here. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Mayur R Budhodkar.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'IFSOC') {
+                    alert("Thank You, Riesh For Your Work, Collect Certificate From Here. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate - Ritesh Khamitkar.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000119') {
+                    alert("Congratulations! Divyanshi Oberoi You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p01.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001203') {
+                    alert("Congratulations! Harikrishnaa S You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p02.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001272') {
+                    alert("Congratulations! ONKAR VAIJANATH MATHAPATI You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p03.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001251') {
+                    alert("Congratulations! Vaishnavi Nitin Saudagar You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p04.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001104') {
+                    alert("Congratulations! Abhijit Satrughan Biswal You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p05.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001253') {
+                    alert("Congratulations! Moulik Agrawal You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p06.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001121') {
+                    alert("Congratulations! Akash Dinkar Patil You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p07.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001261') {
+                    alert("Congratulations! Nikhil Singh You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p08.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001111') {
+                    alert("Congratulations! Abhishek Kumar Vishwakarma You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p09.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000173') {
+                    alert("Congratulations! SRI RIJUL DAS You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p10.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001280') {
+                    alert("Congratulations! Yash Agarwal You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p11.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001244') {
+                    alert("Congratulations! Mayank Agarwal You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p12.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001139') {
+                    alert("Congratulations! Ankit Kumar Pathak You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p13.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS100018') {
+                    alert("Congratulations! Suhasini Tadikonda You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p14.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000184') {
+                    alert("Congratulations! Sushank sakharwade You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p15.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001288') {
+                    alert("Congratulations! Pratyush Chamola You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p16.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001114') {
+                    alert("Congratulations! Abhishek Singh Rana You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p17.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS100012') {
+                    alert("Congratulations! Gurshehzad Singh You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p18.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001200') {
+                    alert("Congratulations! HABIB ULLAH You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT_p19.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'Priyanka Agarwal') {
+                    alert("Congratulations! Priyanka Agarwal You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-20.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000150') {
+                    alert("Congratulations! Sandesh Thonte You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-21.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001241') {
+                    alert("Congratulations! SAIRAM MANDAPAKA You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-22.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001129') {
+                    alert("Congratulations! Amar Sinha You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-23.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001105') {
+                    alert("Congratulations! Abhijith.v You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-24.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001235') {
+                    alert("Congratulations! Krish Sukhani You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-25.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000139') {
+                    alert("Congratulations! Ritika Kalia You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-26.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001259') {
+                    alert("Congratulations! Neha Navarkar You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-27.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001276') {
+                    alert("Congratulations! Pawan Sethi You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-28.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001179') {
+                    alert("Congratulations! Chirag Sharma You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/IF21 WEBD CERT-29.pdf" download>Click Here</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'UniqueID') {
+                    alert("Congratulations! Name You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_pcid.pdf" download > Click Here</a > ');
+                var getcertified = true;
+                }
+                if (bla == 'ANDS1000199') {
+                    alert("Congratulations! Vaibhav Gupta You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p1.pdf" download > Click Here</a > ');
+                var getcertified = true;
+                }
+                if (bla == 'ANDS100191') {
+                    alert("Congratulations! Tushar Swarup Tandon You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p2.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS1000138') {
+                    alert("Congratulations! Ritik Rawat You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p3.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001245') {
+                    alert("Congratulations! Mayur Dhanaji Jadhav You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p4.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001208') {
+                    alert("Congratulations! Hemanth H You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p5.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001192') {
+                    alert("Congratulations! Eishita Gupta You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p6.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001151') {
+                    alert("Congratulations! Ashish Bhatt You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p7.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001147') {
+                    alert("Congratulations! Aransha Rajak You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Certificate For Bagcampus Internship Fest Android Domain Task 01_p8.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001271') {
+                    alert("Congratulations! OMKAR NAGNATH PATIL You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Omkar Certificate For WebD.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'ANDS10001262') {
+                    alert("Congratulations! vighnesha vijay shelar You Got Certificate. Click Ok To Continue.");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Vighnesh WebD Certificate.pdf" download > Click Here</a > ');
+                    var getcertified = true;
+                }
+                if (bla == 'maheshsinghrthakur@gmail.com') {
+                    alert("Thanks, Krushabhsingh Bholasingh Suryawanshi! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p00.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'shubhamsingh16may2002@gmail.com') {
+                    alert("Thanks, shubham singh! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p01.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'garg80601@gmail.com') {
+                    alert("Thanks, Himanshu Garg! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p02.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'shivaniadhana3178@gmail.com') {
+                    alert("Thanks, Shivani Adhanw! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p03.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'daphadesamita@gmail.com') {
+                    alert("Thanks, Daphade Samita Nandkishor! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p05.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'hardik.asher@somaiya.edu') {
+                    alert("Thanks, Hardik Asher! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p06.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'budhodkarmayur@gmail.com') {
+                    alert("Thanks, Mayur Rajesh Budhodkar! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p07.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'vyasdikshant24@gmail.com') {
+                    alert("Thanks, Dikshant vyas! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p08.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'abhimdb5@gmail.com') {
+                    alert("Thanks, ABHISHEK VERMA! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p09.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'kommineniharika78@gmail.com') {
+                    alert("Thanks, harika kommineni! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p10.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'avhalesumit@gmail.com') {
+                    alert("Thanks, SUMIT SANTOSH AVHALE! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p11.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'amangupta6276@gmail.com') {
+                    alert("Thanks, Aman Gupta! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p12.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'vv6649@srmist.edu.in') {
+                    alert("Thanks, Vedansh Vijaywargiya! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p13.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'garg80601@gmail.com') {
+                    alert("Thanks, Himanshu Garg! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p14.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'alshifa12fatima@gmail.com') {
+                    alert("Thanks, Alshifa Begum! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p15.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'sit19ec072@sairamtap.edu.in') {
+                    alert("Thanks, NAVEENVISHAL M! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p16.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'nazia.amu26@gmail.com') {
+                    alert("Thanks, Nazia Kulsoom! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p17.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'varunaasree2000@gmail.com') {
+                    alert("Thanks, D.Varunaa sree! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p18.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (bla == 'ram.allampallewar@gmail.com') {
+                    alert("Thanks, Ramkrishna Allampallewar! We Appreiciate The Work Done By You. You Got Certificate. Click Ok To Continue. And Later Click To Download Certificate");
+                    $('#certificate').append('<a href="https://ambassador.bagcampus.in/pdf/Campus Ambassador Certificate_p19.pdf" download>Download Certificate</a>');
+                    var getcertified = true;
+                }
+                if (getcertified == false) {
+                    alert("Either You Have Entered Wrong UniqueID/Email or You Have Not Completed Task. Try Again!")
+                }
+            })
+        })
+
+    </script>
+
+</body>
 </html>
