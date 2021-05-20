@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.navbar-brand {
+  color: #000;
+  font-weight: 600;
+}
+
+.download-area {
+  text-align: -webkit-center;
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
