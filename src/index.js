@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Rendermain from './Rendermain';
+import 'react-transition-group';
+import { ThemeProvider, StyleReset } from 'atomize';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom";
+import "./CNAME";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <ThemeProvider>
+      <StyleReset />
+      <BrowserRouter><Rendermain /></BrowserRouter>
+    </ThemeProvider>,
   document.getElementById('root')
 );
 
